@@ -1,0 +1,27 @@
+<div *ngFor="let employee of Employees">
+  <div class="panel" style="width: 25rem">
+    <div class="panel-img">
+      <img [src]="employee.photoPath" alt="" />
+    </div>
+    <div class="panel-body">
+      <div class="panel-title">
+        {{ employee.name }}
+      </div>
+      <div class="panel-text">
+        Contact: {{ employee.contactPreference }} DateOfBirth
+        {{ employee.dateOfBirth }}
+        
+        <div [ngSwitch]="employee.department"> 
+        <span *ngSwitchCase="1">HR</span>
+        <span *ngSwitchCase="2">HR Desk</span>
+        <span *ngSwitchCase="3">IT</span>
+        <span *ngSwitchCase="4">paroll</span>
+        <span *ngSwitchDefault>N/A</span>
+
+      </div>
+        Email:{{ employee.email }} gender: {{ employee.gender }} Phone:
+        {{ employee.phoneNumber }}
+      </div>
+    </div>
+  </div>
+</div>

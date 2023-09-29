@@ -1,0 +1,120 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "fullName": "John d",
+      "email": "john@co.com",
+      "contactPreference": "email",
+      "phone": "666666",
+      "skills": [
+        {
+          "id": 1,
+          "SkillName": "C#",
+          "ExperienceInYear": "2",
+          "proficiency": "intermediate"
+        },
+        {
+          "id": 2,
+          "SkillName": "Java",
+          "ExperienceInYear": 2,
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullName": "John deo",
+      "contactPreference": "phone",
+      "email": "john@co.com",
+      "phone": "5555",
+      "skills": [
+        {
+          "id": 1,
+          "SkillName": "Angular 2",
+          "ExperienceInYear": 2,
+          "proficiency": "beginner"
+        },
+        {
+          "id": 2,
+          "SkillName": "HTML",
+          "ExperienceInYear": 2,
+          "proficiency": "intermediate"
+        },
+        {
+          "id": 3,
+          "SkillName": "LINQ",
+          "ExperienceInYear": 3,
+          "proficiency": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "contactPreference": "Email",
+      "email": "jack@co.com",
+      "fullName": "Mark",
+      "skills": [
+        {
+          "ExperienceInYear": "1",
+          "SkillName": "Net",
+          "proficiency": "beginner"
+        },
+        {
+          "ExperienceInYear": "1",
+          "SkillName": "Net core",
+          "proficiency": "beginner"
+        },
+        {
+          "ExperienceInYear": "1",
+          "SkillName": "Net",
+          "proficiency": "beginner"
+        },
+        {
+          "ExperienceInYear": "1",
+          "SkillName": "Net core",
+          "proficiency": "beginner"
+        }
+      ],
+      "phone": "5555"
+    },
+    {
+      "id": 4,
+      "contactPreference": "Email",
+      "email": "jack@co.com",
+      "fullName": "jax",
+      "skills": [
+        {
+          "id": 1,
+          "ExperienceInYear": "1",
+          "SkillName": "Angular 2",
+          "proficiency": "beginner"
+        }
+      ],
+      "phone": "5555"
+    },
+    {
+      "id": 5,
+      "contactPreference": "phone",
+      "email": "jack@co.com",
+      "fullName": "John de1",
+      "skills": [
+        {
+          "ExperienceInYear": "1",
+          "SkillName": "Net core",
+          "proficiency": "beginner"
+        },
+        {
+          "ExperienceInYear": "1",
+          "SkillName": "Net core",
+          "proficiency": "beginner"
+        },
+        {
+          "ExperienceInYear": "2",
+          "SkillName": "Net core",
+          "proficiency": "intermediate"
+        }
+      ],
+      "phone": "5555"
+    }
+  ]
+}
